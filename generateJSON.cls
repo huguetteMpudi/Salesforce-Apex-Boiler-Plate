@@ -1,4 +1,6 @@
- public generateJSON(Opportunity op)
+public class generateJSON { 
+ 
+public generateJSON(Opportunity op)
         {
             opportunityObject=op;
             JSONGenerator generator  = JSON.createGenerator(true);
@@ -17,3 +19,4 @@
             
             
         }
+}
